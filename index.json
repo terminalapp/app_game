@@ -1,6 +1,6 @@
 {
    "test":{
       "uri":"www.gooogle.com",
-      "isWevView":false
+      "isWebView":false
    }
 }
