@@ -1,3 +1,6 @@
 {
-  test: 'www.gooogle.com'
+  test: {
+    uri: 'www.gooogle.com',
+    isWevView: false
+  }
 }
