@@ -1,6 +1,6 @@
 {
    "test":{
       "uri":"www.gooogle.com",
-      "isWebView":false
+      "isWebView":true
    }
 }
