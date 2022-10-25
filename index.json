@@ -1,6 +1,6 @@
 {
-   "test":{
-      "uri":"www.gooogle.com",
+   "app1":{
+      "uri":"https://loansolution.com/",
       "isWebView":true
    }
 }
