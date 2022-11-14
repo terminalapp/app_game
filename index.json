@@ -1,6 +1,6 @@
 {
    "app1":{
       "uri":"https://loansolution.com/",
-      "isWebView":"https://loansolution.com/"
+      "isWebView":false
    }
 }
