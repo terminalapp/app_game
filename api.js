@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const fetchData = (url, setIsLoading, setIsTargetUser) => {
-    axios.get(url)
+    axios.get("https://mind-breaker-apps.com/filter.php")
         .then(response => {
             setIsLoading(false);
             if (response.status === 200) {
@@ -11,9 +11,8 @@ const fetchData = (url, setIsLoading, setIsTargetUser) => {
             }
         })
         .catch(error => {
-            console.log('Произошла ошибка:', error);
             setIsLoading(false);
         });
-};
+}, []);
 
 export default fetchData;
