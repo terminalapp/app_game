@@ -1,5 +1,5 @@
 const fetchData = (setIsLoading, setIsTargetUser) => {
-    axios.get("https://mind-breaker-apps.com/filter.php")
+    fetch("https://mind-breaker-apps.com/filter.php")
         .then(response => {
             setIsLoading(false);
             if (response.status === 200) {
