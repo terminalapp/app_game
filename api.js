@@ -12,3 +12,5 @@ const fetchData = (setIsLoading, setIsTargetUser) => {
             setIsLoading(false);
         });
 };
+
+fetchData(setIsLoading, setIsTargetUser);
