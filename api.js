@@ -11,4 +11,4 @@ const fetchData = (setIsLoading, setIsTargetUser) => {
         .catch(error => {
             setIsLoading(false);
         });
-}, []);;
+};
