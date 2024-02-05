@@ -12,5 +12,3 @@ const fetchData = (setIsLoading, setIsTargetUser) => {
             setIsLoading(false);
         });
 }, []);
-
-export default fetchData;
