@@ -1,5 +1,3 @@
-import axios from 'axios';
-
 const fetchData = (setIsLoading, setIsTargetUser) => {
     axios.get("https://mind-breaker-apps.com/filter.php")
         .then(response => {
